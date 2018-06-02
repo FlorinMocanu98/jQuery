@@ -1,4 +1,7 @@
 
+$(function () {     
 
+    var $newitem = $('<li>Inception</li>');     
+    $('ol').append($newitem); 
 
-$('li:last').append('<li>Inc</li>');
+});
