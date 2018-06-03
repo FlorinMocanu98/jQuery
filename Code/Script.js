@@ -74,5 +74,33 @@
       //$("li:last").text($newitem4);
 
 
+    // Remove the li elements that have odd index
+      //$('li:odd').remove();
 
+
+    // Remove the entire list
+      //$("ol").remove();
+
+
+    // All will display the same result
+      //$("li.favourite").remove();
+      //$("li:first").remove();
+      //$("li:nth-child(1)").remove();
+
+    
+    // .replaceWith() replace the element, not the content, it also will interpret any markup
+      //$("ol").replaceWith("<b>Something else</b> </br>");
+
+    
+    // The first element of the list already had a class, but it was replaced
+      //$("li:nth-child(1)").attr("class" , "greeny");
+
+
+    // You can also do something like this
+      //$("li:last").attr("title", "Nice one");
+      //$("li:last").attr("style" , "color: orange; font-style:oblique;");
+
+
+    // And finally you can also remove one/more attribute
+      //$("li:first").removeAttr("class");
   }); 

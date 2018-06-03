@@ -6,13 +6,17 @@ body{
 
 .list {
 
-        color: darkred;
-        font-size: 2vw;
+    color: darkred;
+    font-size: 2vw;
 }
 
-.ok {
-
-
+.greeny {
 
     color: green;
+}
+
+.favourite{
+
+    color: blue;
+
 }
