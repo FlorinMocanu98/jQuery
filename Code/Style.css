@@ -12,18 +12,15 @@ body{
 }
 
 .greeny {
-
     color: green;
 }
 
 .favourite{
 
-    color: blue;
+    color: #808080;
 
 }
 
-.cool{
-
-    font-family:'Bodoni MT';
-    background-color: aquamarine;
+.cool {
+    color: blue;
 }
