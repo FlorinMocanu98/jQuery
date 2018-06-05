@@ -86,6 +86,7 @@ $(document).ready(function () {
     // Remove all classes
       //$("li:first").removeClass();
 
+
     // Will not remove anythig
       //$("li:first").removeClass("");
 
@@ -94,8 +95,9 @@ $(document).ready(function () {
       //var color = $("li:first").css("color");
       //$("li:nth-child(3)").css("color", color);
 
-    //
-    $("li:first").css("color", "blue").css("font-style", "italic").text("The wolf of Wall Street").append("&check;");
+
+    //Example of chaining methods
+      //$("li:first").css("color", "blue").css("font-style", "italic").text("The wolf of Wall Street").append("&check;");
     
 }); 
 
