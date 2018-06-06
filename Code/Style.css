@@ -24,3 +24,26 @@ body{
 .cool {
     color: blue;
 }
+
+.btn {
+
+    width: 15vw;
+    height: 2vw;
+    background-color: blue;
+    font-size: 1vw;
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    margin-left: 5%;
+    border: 0;
+    transition-duration: 0.2s;
+    transition-property: background-color ;
+    transition-timing-function: ease;
+    
+
+}
+
+.btn:hover {
+
+    background-color: #3093ff;
+}
