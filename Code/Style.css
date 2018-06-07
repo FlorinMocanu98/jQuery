@@ -1,24 +1,19 @@
-body{
-
+body {
     background-color: rgb(255, 255, 255);
-    margin: 0;
-    height: 100%;
 }
 
 .list {
-
     color: darkred;
     font-size: 2vw;
+    
 }
 
 .greeny {
     color: green;
 }
 
-.favourite{
-
+.favourite {
     color: #808080;
-
 }
 
 .cool {
@@ -26,7 +21,6 @@ body{
 }
 
 .btn {
-
     width: 15vw;
     height: 2vw;
     background-color: blue;
@@ -37,13 +31,10 @@ body{
     margin-left: 5%;
     border: 0;
     transition-duration: 0.2s;
-    transition-property: background-color ;
+    transition-property: background-color;
     transition-timing-function: ease;
-    
-
 }
 
-.btn:hover {
-
-    background-color: #3093ff;
-}
+    .btn:hover {
+        background-color: #3093ff;
+    }
